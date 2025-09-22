@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerri</title>
+    <link rel="stylesheet" href="/CSS/all.min.css">
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/media.css">
+</head>
+
+<body>
+
+
+   <!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Lebaladna — Volunteer Fit Quiz</title>
+
+</head>
+<body>
+
+  <div class="wrap">
+    <header>
+      <h1>Lebaladna — Quick Volunteer Fit (5 questions)</h1>
+      <p class="lead">Answer 5 short questions. We'll suggest which Lebaladna sector fits you best.</p>
+    </header>
+
+    <form id="quiz">
+      <!-- QUESTION 1 -->
+      <div class="card" data-q="1">
+        <div class="q-title">1) Which outcome excites you most?</div>
+        <div class="choices">
+          <label><input type="radio" name="q1" value="shelter">Provide safe shelter / housing support</label>
+          <label><input type="radio" name="q1" value="health">Improve community health / awareness</label>
+          <label><input type="radio" name="q1" value="microfinance">Help families earn / learn financial skills</label>
+          <label><input type="radio" name="q1" value="charity">Collect & distribute donations (campaigns)</label>
+          <label><input type="radio" name="q1" value="cbl">Work directly in communities (children, elderly)</label>
+          <label><input type="radio" name="q1" value="junior">Support youth / school-level volunteering</label>
+          <label><input type="radio" name="q1" value="research">Study problems & suggest data-driven solutions</label>
+        </div>
+      </div>
+
+      <!-- QUESTION 2 -->
+      <div class="card" data-q="2">
+        <div class="q-title">2) Which activity would you enjoy most?</div>
+        <div class="choices">
+          <label><input type="radio" name="q2" value="shelter">Repair homes / help with housing logistics</label>
+          <label><input type="radio" name="q2" value="health">Run health checks or awareness sessions</label>
+          <label><input type="radio" name="q2" value="microfinance">Teach small-business or money skills</label>
+          <label><input type="radio" name="q2" value="charity">Organize donation drives & distributions</label>
+          <label><input type="radio" name="q2" value="cbl">Engage in school/community outreach (CBL)</label>
+          <label><input type="radio" name="q2" value="junior">Lead fun / learning activities for children</label>
+          <label><input type="radio" name="q2" value="research">Collect survey data or write reports</label>
+        </div>
+      </div>
+
+      <!-- QUESTION 3 -->
+      <div class="card" data-q="3">
+        <div class="q-title">3) What skills do you want to use or learn?</div>
+        <div class="choices">
+          <label><input type="radio" name="q3" value="shelter">Hands-on building / logistics</label>
+          <label><input type="radio" name="q3" value="health">Basic medical / health-promotion skills</label>
+          <label><input type="radio" name="q3" value="microfinance">Financial coaching / entrepreneurship</label>
+          <label><input type="radio" name="q3" value="charity">Event organizing & coordination</label>
+          <label><input type="radio" name="q3" value="cbl">Community facilitation & mentoring</label>
+          <label><input type="radio" name="q3" value="junior">Child engagement & activity design</label>
+          <label><input type="radio" name="q3" value="research">Analysis, writing, data handling</label>
+        </div>
+      </div>
+
+      <!-- QUESTION 4 -->
+      <div class="card" data-q="4">
+        <div class="q-title">4) How do you prefer to work?</div>
+        <div class="choices">
+          <label><input type="radio" name="q4" value="shelter">Project teams on site (hands-on)</label>
+          <label><input type="radio" name="q4" value="health">Short community campaigns</label>
+          <label><input type="radio" name="q4" value="microfinance">Training & follow-up with beneficiaries</label>
+          <label><input type="radio" name="q4" value="charity">Campaign & logistics coordination</label>
+          <label><input type="radio" name="q4" value="cbl">Long-term school/community partnerships</label>
+          <label><input type="radio" name="q4" value="junior">Regular weekly sessions with kids</label>
+          <label><input type="radio" name="q4" value="research">Independent research or data projects</label>
+        </div>
+      </div>
+
+      <!-- QUESTION 5 -->
+      <div class="card" data-q="5">
+        <div class="q-title">5) Why do you volunteer?</div>
+        <div class="choices">
+          <label><input type="radio" name="q5" value="shelter">I want to provide basic needs & shelter</label>
+          <label><input type="radio" name="q5" value="health">I want to improve people's wellbeing</label>
+          <label><input type="radio" name="q5" value="microfinance">I want to help people become financially independent</label>
+          <label><input type="radio" name="q5" value="charity">I like organizing help and collecting resources</label>
+          <label><input type="radio" name="q5" value="cbl">I want to learn with community members through action</label>
+          <label><input type="radio" name="q5" value="junior">I enjoy supporting and teaching kids/teens</label>
+          <label><input type="radio" name="q5" value="research">I want to study issues and propose solutions</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="btn-row">
+          <button type="button" class="btn" id="submitBtn">Submit</button>
+          <button type="button" class="btn secondary" id="resetBtn">Reset</button>
+          <div class="small" id="hint">Answer all 5 questions</div>
+        </div>
+
+        <div id="result" class="hidden"></div>
+        <div id="explain" class="desc hidden"></div>
+
+        <div id="breakdown" class="sector-list hidden"></div>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
